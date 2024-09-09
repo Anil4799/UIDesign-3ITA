@@ -1,0 +1,32 @@
+
+int globalVariable = 10;
+
+void main() {
+
+  String name = 'Alice';
+  int age = 30;
+  double height = 5.6;
+
+
+  const double pi = 3.14159;
+  final String greeting = 'Hello, Dart!';
+
+
+  print('Global Variable: $globalVariable');
+  print('Name: $name');
+  print('Age: $age');
+  print('Height: $height');
+  print('Pi: $pi');
+  print('Greeting: $greeting');
+
+  name = 'Bob';
+  age = 31;
+  height = 5.7;
+
+  print('\nUpdated Information:');
+  print('Name: $name');
+  print('Age: $age');
+  print('Height: $height');
+  
+
+}

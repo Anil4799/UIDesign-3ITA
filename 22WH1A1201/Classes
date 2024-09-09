@@ -1,0 +1,19 @@
+void main() {
+
+  Car myCar = Car('Toyota', 'Corolla');
+
+
+  myCar.displayInfo();
+}
+
+class Car {
+
+  String brand;
+  String model;
+
+  Car(this.brand, this.model);
+
+  void displayInfo() {
+    print('Car Brand: $brand, Model: $model');
+  }
+}

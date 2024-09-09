@@ -1,0 +1,29 @@
+void main() {
+ 
+  int sumResult = sum(100, 20);
+  print('Sum: $sumResult');
+  greet('John');
+  greet('Susmitha', greeting: 'Good morning');
+
+  
+  int factorialResult = factorial(5);
+  print('Factorial of 5: $factorialResult');
+}
+
+
+int sum(int a, int b) {
+  return a + b;
+}
+
+
+void greet(String name, {String greeting = 'Hello'}) {
+  print('$greeting, $name!');
+}
+
+int factorial(int n) {
+  int result = 1;
+  for (int i = 1; i <= n; i++) {
+    result *= i;
+  }
+  return result;
+}
